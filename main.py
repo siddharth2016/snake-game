@@ -109,7 +109,7 @@ class Game:
         return False
 
     def render_background(self):
-        bg = pygame.image.load("resources/background.png")
+        bg = pygame.image.load("resources/background.jpeg")
         self.surface.blit(bg, (0,0))
 
     def play(self):
